@@ -6,6 +6,7 @@
 
 - Se realiza antes del inicio de un nuevo cuatrimestre (hay 2 cuatrimestres por año).
 - Los docentes solo pueden tener cambios en una sola materia.
+- Los docentes sin novedades deben incluir los datos previos sin cambio alguno.
 - Existen materias compartidas entre varias carreras (pero con distintos codigos internos en cada una), un solo coordinador debe aprobarlas, usualmente lo gestionan entre ellos.
 - Luego de la aprobacion del Decanato el "proyecto docente" queda en estado pendiente hasta recibir la aprobacion final de la Secretaria Academica Universitaria, de ahi pueden darlo como aprobado/finalizado (solamente el Decanato o la Secretaria Academica del Departamento).
 - La Secretaria Academica Universitaria puede objetar algunas novedades antes de enviar la aprobacion final [TODO: Terminar de investigar ese flujo].
@@ -16,14 +17,13 @@
 #### Jefe de Catedra:
 
 - Genera el "proyecto docente" para su Catedra con las novedades de sus docentes (incluyendo las suyas).
-- Los docentes sin novedades deben incluir los datos previos sin cambio alguno.
 - Hay tres tipos de cambios, solo se permite una de ellas por proyecto; alta, baja y cambios en la dedicacion y/o cargo.
 
 #### Coordinadores de Carreras:
 
 - Recibe las novedades enviadas en el "proyecto docente" de cada Jefe de Catedra (dentro de su carrera asignada como coordinador).
 - Cada novedad esta vinculada a un docente, el Coordinador puede aprobar o rechazar esa novedad, esa novedad debe detallar que Jefe de Catedra lo envio (y desde que Catedra).
-- Su vista es enfocada en docente por docente y no tanto en la catedra, pero por cada docente deberia detallar en que catedras esta; cargo y dedicacion en cada una; horas en investigacion (si aplican); historial de novedades previas y horas de investigacion.
+- Su vista es enfocada en docente por docente y no tanto en la catedra, pero por cada docente deberia detallar en que catedras esta; cargo y dedicacion en cada una; historial de novedades previas y horas de investigacion.
 - Se debe indicar si un docente hace mas horas en otro Departamento (que no sea el de Ingenieria).
 - Debatiendo dos flujos de cambios en las novedades: [TODO: Definir cual de los dos flujos implementar]
   1. Puede rechazar por un dato mal cargado o denegar los cambios del docente, todo con un justificativo. Esto luego se reenvia al Jefe de Catedra que envio esa novedad para correcion o aviso (notificacion mediante el sistema y por email).
